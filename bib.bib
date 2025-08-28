@@ -1,0 +1,178 @@
+
+@inproceedings{serebryany_addresssanitizer_2012,
+  address   = {Boston, MA},
+  title     = {{AddressSanitizer}: {A} {Fast} {Address} {Sanity} {Checker}},
+  isbn      = {978-931971-93-5},
+  url       = {https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany},
+  booktitle = {2012 {USENIX} {Annual} {Technical} {Conference} ({USENIX} {ATC} 12)},
+  publisher = {USENIX Association},
+  author    = {Serebryany, Konstantin and Bruening, Derek and Potapenko, Alexander and Vyukov, Dmitriy},
+  month     = jun,
+  year      = {2012},
+  pages     = {309--318}
+}
+
+@inproceedings{lin_enhanced_2023,
+  title  = {Enhanced {Memory} {Corruption} {Detection} in {C}/{C}++ {Programs}},
+  doi    = {10.1145/3605731.3605903},
+  author = {Lin, Ching-Yi and Yang, Wuu},
+  month  = sep,
+  year   = {2023},
+  pages  = {71--78}
+}
+
+@inproceedings{taint_trace_2006,
+  author    = {Cheng, W. and Qin Zhao and Bei Yu and Hiroshige, S.},
+  booktitle = {11th IEEE Symposium on Computers and Communications (ISCC'06)},
+  title     = {TaintTrace: Efficient Flow Tracing with Dynamic Binary Rewriting},
+  year      = {2006},
+  volume    = {},
+  number    = {},
+  pages     = {749-754},
+  keywords  = {Protection;Application software;Instruments;Monitoring;Buffer overflow;Data security;Target tracking;Hardware;Runtime;Communication system security},
+  doi       = {10.1109/ISCC.2006.158}
+}
+
+@inproceedings{lift_2006,
+  author    = {Qin, Feng and Wang, Cheng and Li, Zhenmin and Kim, Ho-seop and Zhou, Yuanyuan and Wu, Youfeng},
+  booktitle = {2006 39th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO'06)},
+  title     = {LIFT: A Low-Overhead Practical Information Flow Tracking System for Detecting Security Attacks},
+  year      = {2006},
+  volume    = {},
+  number    = {},
+  pages     = {135-148},
+  keywords  = {Information security;Target tracking;Switches;Instruments;Software tools;Computer security;Hardware;Runtime;Application software;Computer crime},
+  doi       = {10.1109/MICRO.2006.29}
+}
+
+@article{valgrind_2007,
+  author     = {Nethercote, Nicholas and Seward, Julian},
+  title      = {Valgrind: a framework for heavyweight dynamic binary instrumentation},
+  year       = {2007},
+  issue_date = {June 2007},
+  publisher  = {Association for Computing Machinery},
+  address    = {New York, NY, USA},
+  volume     = {42},
+  number     = {6},
+  issn       = {0362-1340},
+  url        = {https://doi.org/10.1145/1273442.1250746},
+  doi        = {10.1145/1273442.1250746},
+  abstract   = {Dynamic binary instrumentation (DBI) frameworks make it easy to build dynamic binary analysis (DBA) tools such as checkers and profilers. Much of the focus on DBI frameworks has been on performance; little attention has been paid to their capabilities. As a result, we believe the potential of DBI has not been fully exploited.In this paper we describe Valgrind, a DBI framework designed for building heavyweight DBA tools. We focus on its unique support for shadow values-a powerful but previously little-studied and difficult-to-implement DBA technique, which requires a tool to shadow every register and memory value with another value that describes it. This support accounts for several crucial design features that distinguish Valgrind from other DBI frameworks. Because of these features, lightweight tools built with Valgrind run comparatively slowly, but Valgrind can be used to build more interesting, heavyweight tools that are difficult or impossible to build with other DBI frameworks such as Pin and DynamoRIO.},
+  journal    = {SIGPLAN Not.},
+  month      = {jun},
+  pages      = {89–100},
+  numpages   = {12},
+  keywords   = {shadow values, dynamic binary instrumentation, dynamic binary analysis, Valgrind, Memcheck}
+}
+
+@inproceedings{dr-memory_20011,
+  author    = {Bruening, Derek and Zhao, Qin},
+  booktitle = {International Symposium on Code Generation and Optimization (CGO 2011)},
+  title     = {Practical memory checking with Dr. Memory},
+  year      = {2011},
+  volume    = {},
+  number    = {},
+  pages     = {213-223},
+  keywords  = {Libraries;Registers;Instruments;Resource management;Wrapping;Monitoring;Kernel;Memory Checking;Shadow Memory;Dynamic Optimization},
+  doi       = {10.1109/CGO.2011.5764689}
+}
+
+@inproceedings{purify_1991,
+  title  = {Fast detection of memory leaks and access errors},
+  author = {Robert O. Hastings and Beverly A. Joyce},
+  year   = {1991},
+  url    = {https://api.semanticscholar.org/CorpusID:1798819}
+}
+
+@misc{intel-inspector_2024,
+  url     = {https://www.intel.com/content/www/us/en/developer/tools/oneapi/inspector.html},
+  journal = {Intel},
+  author  = {Intel},
+  urldate = {10. Juni 2024}
+}
+
+@misc{oracle-discover_2024,
+  url     = {https://docs.oracle.com/cd/E77782_01/html/E77795/gmzsf.html},
+  journal = {Oracle},
+  author  = {Oracle},
+  urldate = {10. Juni 2024}
+}
+
+@misc{bounds-checker_2024,
+  url     = {https://www.microfocus.com/documentation/extend-acucobol/925/BKUSUSPROGS047.html},
+  journal = {microfocus},
+  author  = {microfocus},
+  urldate = {10. Juni 2024}
+}
+
+@misc{nethercore_dynamic_2004,
+  title  = {Dynamic binary analysis and instrumentation},
+  url    = {https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-606.pdf},
+  author = {Nethercore, Nicholas},
+  month  = nov,
+  year   = {2004}
+}
+
+@misc{guard-malloc_2024,
+  author  = {Apple Inc.},
+  url     = {https://developer.apple.com/library/archive/documentation/Performance/Conceptual/ManagingMemory/Articles/MallocDebug.html},
+  title   = {Enabling the Malloc Debugging Features},
+  year    = {2013},
+  month   = apr,
+  urldate = {10. Juni 2024}
+}
+
+@misc{hardware-asan_2024,
+  title        = {Hardware-assisted AddressSanitizer Design Documentation},
+  year         = {2024},
+  urldate = {10. Juni 2024}
+}
+
+@book{tanenbaum-modern_2015,
+  address   = {Boston},
+  edition   = {4. ed},
+  title     = {Modern operating systems},
+  isbn      = {978-0-13-359162-0 978-1-292-06142-9},
+  language  = {eng},
+  publisher = {Prentice Hall},
+  author    = {Tanenbaum, Andrew S. and Bos, Herbert},
+  year      = {2015},
+  annote    = {Previous edition: published as by Andrew S. Tanenbaum. 2008},
+  file      = {Table of Contents PDF:C\:\\Users\\Jeremia Kirifuda\\Zotero\\storage\\VSSB7CC2\\Tanenbaum und Bos - 2015 - Modern operating systems.pdf:application/pdf}
+}
+
+@inproceedings{die-harder_2010,
+  author    = {Novark, Gene and Berger, Emery D.},
+  title     = {DieHarder: securing the heap},
+  year      = {2010},
+  isbn      = {9781450302456},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/1866307.1866371},
+  doi       = {10.1145/1866307.1866371},
+  abstract  = {Heap-based attacks depend on a combination of memory management error and an exploitable memory allocator. Many allocators include ad hoc countermeasures against particular exploits but their effectiveness against future exploits has been uncertain. This paper presents the first formal treatment of the impact of allocator design on security. It analyzes a range of widely-deployed memory allocators, including those used by Windows, Linux, FreeBSD and OpenBSD, and shows that they remain vulnerable to attack. It them presents DieHarder, a new allocator whose design was guided by this analysis. DieHarder provides the highest degree of security from heap-based attacks of any practical allocator of which we are aware while imposing modest performance overhead. In particular, the Firefox web browser runs as fast with DieHarder as with the Linux allocator.},
+  booktitle = {Proceedings of the 17th ACM Conference on Computer and Communications Security},
+  pages     = {573–584},
+  numpages  = {12},
+  keywords  = {memory errors, dynamic memory allocation, dangling pointer, buffer overflow},
+  location  = {Chicago, Illinois, USA},
+  series    = {CCS '10}
+}
+
+@inproceedings{mcds_2023,
+author = {Lin, Ching-Yi and Yang, Wuu},
+title = {Enhanced Memory Corruption Detection in C/C++ Programs},
+year = {2023},
+isbn = {9798400708428},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3605731.3605903},
+doi = {10.1145/3605731.3605903},
+abstract = {Out-of-bound memory accesses, which often occur in programs written in unsafe languages such as C or C++, cause severe troubles. Though there are many useful tools aiming at this problem, we report a new tool, called mcds, for detecting spatial and temporal memory corruptions in x86-64 ELF binary. Mcds allocates each memory object to a separate virtual page. The rest is left blank. Due to a facility in the memory management library, we can set up memory protection so that accessing the “blank” part of a virtual page causes a hardware trap. Because it is a hardware trap, there is little run-time overhead. In order to save memory space, we may squeeze several virtual pages into a single physical page. Our first experimental result is that mcds can find all the bugs in the Firefox 78 package, the Chrome package and the PHP7.0 package that are recorded on the CVE Details website. Furthermore, mcds can detect three classes of memory corruptions that are beyond the capability of the current AddressSanitizer (Asan). Then we compare the time for compilation and fuzzing tests. The fuzzing test is done with AFL++ fuzzer on Ubuntu 22.04 LTS with Intel i5-9600K chip. According to our experimental results, mcds shows approximately 6x speedup in fuzzing tests against AddressSanitizer. There is not significant difference between compiling the source with AddressSanitizer or with mcds, though both of them result in 2x slowdown compared with compilation without a sanitizer.},
+booktitle = {Proceedings of the 52nd International Conference on Parallel Processing Workshops},
+pages = {71–78},
+numpages = {8},
+keywords = {x86-64, shadow memory, red zones, page aliasing, memory corruption, LLVM, Intel SGX},
+location = {<conf-loc>, <city>Salt Lake City</city>, <state>UT</state>, <country>USA</country>, </conf-loc>},
+series = {ICPP Workshops '23}
+}
